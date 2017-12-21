@@ -16,13 +16,6 @@ function moduleDidLoad() {
     // common.naclModule.postMessage('hello');
 }
 
-// This function is called by common.js when a message is received from the
-// NaCl module.
-function handleMessage(message) {
-    var logEl = document.getElementById('log');
-    logEl.textContent = "";
-    logEl.textContent += message.data;
-}
 
 
 (function(funcName, baseObj) {
@@ -98,15 +91,21 @@ function handleMessage(message) {
     }
 })("docReady", window);
 
+
 docReady(function() {
     var submitBtn = document.getElementById('submit');
     var inputText = document.getElementById('input');
 
     submitBtn.addEventListener("click", function () {
 
-        // console.log(inputText.value);
         common.naclModule.postMessage(inputText.value);
-
     });
 });
+
+
+function handleMessage(message) {
+    var logEl = document.getElementById('log');
+    logEl.textContent = "";
+    logEl.textContent += message.data;
+}
 
