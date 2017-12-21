@@ -1,0 +1,59 @@
+# Updated by fix_deps.py
+pnacl/Release/demo1.o: demo1.cc \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/instance.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_instance.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_macros.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_stdint.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_resource.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb_console.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_bool.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_var.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/instance_handle.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/view.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/resource.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/pass_ref.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/rect.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_rect.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_point.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_size.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/point.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/size.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/logging.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/module.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_module.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb_core.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_completion_callback.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_time.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/core.h \
+  /Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/var.h \
+  travel.cc
+demo1.cc:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/instance.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_instance.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_macros.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_stdint.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_resource.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb_console.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_bool.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_var.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/instance_handle.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/view.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/resource.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/pass_ref.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/rect.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_rect.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_point.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_size.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/point.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/size.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/logging.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/module.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_module.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/ppb_core.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_completion_callback.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/c/pp_time.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/core.h:
+/Users/lukas/OneDrive/Skola/BSY/sem/nacl_sdk/pepper_49/include/ppapi/cpp/var.h:
+travel.cc:
