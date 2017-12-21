@@ -15,13 +15,12 @@ public:
         if (!var_message.is_string())
             return;
 
-        // Get the string message and compare it to "hello".
         std::string message = var_message.AsString();
 
         Graph graph;
         graph.Load(message);
+        
         std::string output = std::to_string(graph.Process());
-//        std::string output = "output message";
 
         pp::Var var_reply(output);
         PostMessage(var_reply);
